@@ -6,7 +6,7 @@ import com.travelAudience.locator.model.Coordinate
   * https://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula
   * Originally in Javascript, Converted to Scala
   */
-class HarvesineDistance extends Distance {
+class HarvesineFormula extends Distance {
 
   override def calculateDistanceFor2Coordinates(coordinate1: Coordinate, coordinate2: Coordinate): Double = {
       val R = 6371; // Radius of the earth in km

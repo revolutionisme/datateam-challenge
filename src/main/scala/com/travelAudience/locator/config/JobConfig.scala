@@ -47,7 +47,7 @@ class JobConfig(sparkSession: SparkSession, fileNameOption: Option[String] = Non
       .as[AirportGeoLocation]
       .collect()
 
-    val airportArray = Array.ofDim[List[AirportGeoLocation]](180, 360)
+    val airportArray = Array.ofDim[List[AirportGeoLocation]](181, 361)
 
     populateAirportArray(airportArray, airports)
   }
