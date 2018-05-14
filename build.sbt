@@ -1,4 +1,4 @@
-name := "TravelAudienec Challenge"
+name := "Travel-Audience Challenge"
 
 version := "0.1.0"
 
@@ -11,3 +11,4 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-sql" % sparkVersion,
   "org.apache.spark" %% "spark-streaming" % sparkVersion
 )
+libraryDependencies += "com.typesafe" % "config" % "1.2.0"
